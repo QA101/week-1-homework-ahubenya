@@ -1,3 +1,4 @@
+package weekTwoProject;
 
 public class DivisibleProgram {
 
@@ -12,6 +13,15 @@ public class DivisibleProgram {
 	 * 10 divided by 5 is 2 with 0 remainder. The program would print true
 	 */
 	public static void main(String args[]){
+		int x,y;
+		x = 10;
+		y = 5;
+		if (x % y == 0) {
+			System.out.println("True");
+		}
+		else {
+			System.out.println("False");
+		}
 		
 	}
 }
